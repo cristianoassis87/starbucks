@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.caixa-texto {
+    width: 500px;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 160px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+span {
+    color: #017143;
+    font-size: 35px;
+    font-weight: 900;
+
+}
+
+p {
+    font-size: 10px;
+}
+
+button {
+    background: #017143;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 5px; 
+    margin-top: 20px;  
+}
+
+.logo {
+    width: 60px;
+}
+
+.starbucks {
+    width: 230px;
+}
+
+.botao-menu {
+    width: 40px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px);
+    
+}
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    top: 0;
+    left: 0;
+    clip-path: circle(400px at right 500px);
+    z-index: -1;
+    
+}
+
+@media (max-width:800px) {
+    h1 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+
+    p {
+        width: 230px;
+        font-size: 10px;
+        text-indent:40px;
+        margin-left: 3px;
+        margin-top:10px;
+        text-align: justify;
+    }
+
+    span {
+        font-size: 35px;
+    }
+
+    button {
+        margin-left: 80px;
+        margin-top: 5px;
+        padding: 2px;
+        font-size: 10px;
+    }
+
+
+    .logo {
+        margin-left: 90px;
+        width: 50px;
+    }
+
+    .circulo {
+        clip-path: ellipse(90px 90px at 130px 370px);
+    }
+
+    .conteudo {
+        align-items: normal;
+        display:block;
+    }
+
+    .caixa-imagem {
+        display: block;
+        margin-top: 20px;
+    }
+    .starbucks {
+        width: 100px;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    .botao-menu {
+        width: 37px;
+        
+    }
+
+    .menu {
+        margin-top: 30px;
+        
+    }
+
+    body {
+        padding-left: 15px;
+    }
+    
+}
