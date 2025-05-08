@@ -59,8 +59,8 @@ button {
     border-radius: 40px;
     border: none;
     cursor: pointer;
-    padding: 5px; 
-    margin-top: 20px;  
+    padding: 5px;
+    margin-top: 20px;
 }
 
 .logo {
@@ -80,7 +80,7 @@ button {
 
 .botao-menu:hover {
     transform: translateY(-25px);
-    
+
 }
 
 .circulo {
@@ -92,7 +92,7 @@ button {
     left: 0;
     clip-path: circle(400px at right 500px);
     z-index: -1;
-    
+
 }
 
 @media (max-width:800px) {
@@ -105,9 +105,9 @@ button {
     p {
         width: 230px;
         font-size: 10px;
-        text-indent:40px;
+        text-indent: 40px;
         margin-left: 3px;
-        margin-top:10px;
+        margin-top: 10px;
         text-align: justify;
     }
 
@@ -134,13 +134,14 @@ button {
 
     .conteudo {
         align-items: normal;
-        display:block;
+        display: block;
     }
 
     .caixa-imagem {
         display: block;
         margin-top: 20px;
     }
+
     .starbucks {
         width: 100px;
         margin-left: 70px;
@@ -149,16 +150,16 @@ button {
 
     .botao-menu {
         width: 37px;
-        
+
     }
 
     .menu {
         margin-top: 30px;
-        
+
     }
 
     body {
         padding-left: 15px;
     }
-    
+
 }
